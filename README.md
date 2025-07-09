@@ -63,8 +63,8 @@ GRADEMNGMNTSYS/               ← Project's root directory
 # Steps:
 
 # Clone the repository
-git clone https://github.com/<your-username>/grade-management-iitk.git
-cd grade-management-iitk/gradeMngmntSys
+git clone https://github.com/arpitmisra/GradeManagement-IITK.git
+cd GradeManagement-IITK/gradeMngmntSys
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
