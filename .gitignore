@@ -1,0 +1,117 @@
+# ---- Global ----
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Django stuff:
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ---- Frontend ----
+
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# React/CRA
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ---- Python ----
+*.pyc
+*.pyo
+*.pyd
+
+# Migration and cache
+**/migrations/__pycache__/
+**/__pycache__/
+
+# ---- Misc ----
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Ignore IDE/project files
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+
+# Ignore test artifacts
+frontend/src/setupTests.js
+frontend/src/reportWebVitals.js
+
+# Ignore lock files
+frontend/package-lock.json
+
+# Ignore images (optional, comment out if you want to track images)
+# frontend/public/*.png
+# frontend/public/*.jpg
+# frontend/public/*.jpeg
+# frontend/public/*.ico
+# frontend/src/*.png
+# frontend/src/*.jpg
+# frontend/src/*.jpeg
+
+# End of .gitignore

@@ -1,0 +1,90 @@
+h1{
+  color: #000000;
+  text-align: center;
+  font-size: 10vh;
+  font-family: 'Playfair Display', serif;
+  line-height: 0ch;
+  font-weight: bold;
+  text-shadow: 0 0 10px #c6e8e1, 0 0 20px #c7cbd5, 0 0 30px #ffffff;
+}
+h2, h5{
+  color: rgb(0, 0, 0);
+  text-align:center;
+  font-family: 'Playfair Display', serif;
+  font-size: 7vh;
+  text-shadow: 0 0 10px #cbbebe, 0 0 20px #d5dfdb, 0 0 30px #dceae5;
+}
+h3{
+  text-align: center;
+}
+body {
+margin: 0;
+padding: 0;
+min-height: 100vh;
+/* background-image: url('image.png');  */
+background-size: cover;                
+background-position: center;           
+background-repeat: no-repeat;           
+}
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#adc,#qwe, #a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; /* Applies 10px margin on all sides */
+  margin-top: 10px; /* Top margin */
+  margin-right: 15px; /* Right margin */
+  margin-bottom: 20px; /* Bottom margin */
+  margin-left: 25px; /* Left margin */
+  background-color: #261b86e7;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 4vh;
+  border: 3px solid #a26868;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.5s, box-shadow 0.2s;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  margin-top: 8px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 250px;
+  z-index: 1000;
+}
+
+.dropdown p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.dropdown button {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.filters-container {
+  display: flex; /* Use Flexbox for horizontal alignment */
+  gap: 10px; /* Add spacing between components */
+  margin-top: 10px; /* Add some space above the filters */
+  align-items: center; /* Vertically align components */
+  display: flex;
+}
