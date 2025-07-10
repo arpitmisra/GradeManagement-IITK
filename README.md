@@ -64,6 +64,7 @@ GRADEMNGMNTSYS/               ← Project's root directory
 
 # Clone the repository
 git clone https://github.com/arpitmisra/GradeManagement-IITK.git
+---
 cd GradeManagement-IITK/gradeMngmntSys
 
 # Create a virtual environment (optional but recommended)
