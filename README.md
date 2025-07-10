@@ -95,9 +95,9 @@ This will start the Backend server at http://localhost:8000
 
 # Steps:
 # In a new terminal
--cd ../react-frontend
--npm install
--npm start
+- cd ../react-frontend
+- npm install
+- npm start
 
 This will start the React app on: **http://localhost:3000**
 
