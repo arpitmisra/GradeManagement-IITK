@@ -62,52 +62,52 @@ GRADEMNGMNTSYS/               ← Project's root directory
 
 # Steps:
 
-# Clone the repository
-git clone https://github.com/arpitmisra/GradeManagement-IITK.git
----
-cd GradeManagement-IITK/gradeMngmntSys
+# Clone the repository: 
+
+-git clone https://github.com/arpitmisra/GradeManagement-IITK.git
+-cd GradeManagement-IITK/gradeMngmntSys
 
 # Create a virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
+-python -m venv venv
+-source venv/bin/activate    # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 # Apply migrations
-python manage.py makemigrations
-python manage.py migrate
+-python manage.py makemigrations
+-python manage.py migrate
 
 # Create superuser (for admin login)
-python manage.py createsuperuser
+-python manage.py createsuperuser
 
 # Run the backend server (inside folder's root directory)
-python manage.py runserver
+-python manage.py runserver
 
 This will start the Backend server at http://localhost:8000
 
 
 ## 2. Setup Frontend
-Prerequisites:
-Node.js + npm
+# Prerequisites:
+-Node.js + npm
 
 ---
 
 # Steps:
 # In a new terminal
-cd ../react-frontend
-npm install
-npm start
+-cd ../react-frontend
+-npm install
+-npm start
 
 This will start the React app on: **http://localhost:3000**
 
 ---
 
 ## 3. Quick Test
-Log in as superuser at http://localhost:8000/admin/ and verify models.
+-Log in as superuser at http://localhost:8000/admin/ and verify models.
 
-Register a new professor at http://localhost:3000/register/professor/
+-Register a new professor at http://localhost:3000/register/professor/
 
-Assign course and batch, define evaluation structure.
+-Assign course and batch, define evaluation structure.
 
-Register a student and view their final score in http://localhost:3000/student/dashboard/
+-Register a student and view their final score in http://localhost:3000/student/dashboard/
